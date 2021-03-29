@@ -5,7 +5,6 @@
  - CSS
  - JavaScript
  - Bootstrap
- - jQuery
  - Python
  - Django
  - SQL
