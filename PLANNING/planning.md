@@ -45,7 +45,7 @@
 
 ### Create a Group
 
-![6-Create-a-Group](./planning-pics/6-create-a-Group.png)
+![6-Create-a-Group](./planning-pics/6-Create-a-group.png)
 
 ### Group Page
 
