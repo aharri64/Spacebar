@@ -33,7 +33,7 @@
 
 ### Login Page
 
-![3-Login](./planning-pics/3-Login.png)
+![3-Login](./planning-pics/3-login.png)
 
 ### just logged in
 
