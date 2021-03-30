@@ -41,7 +41,7 @@
 
 ### My Groups Page
 
-![5-Groups](./planning-pics/5-groups.png)
+![5-Groups](./planning-pics/5-Groups.png)
 
 ### Create a Group
 
