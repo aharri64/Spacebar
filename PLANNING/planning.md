@@ -57,4 +57,4 @@
 
 ### Post Made
 
-![9-Post-made](./planning-pics/9-Post-made.png)
+![9-Post-made](./planning-pics/9-post-made.png)
