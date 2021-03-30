@@ -16,6 +16,7 @@
  - They can also leave and join other groups
  
  The key features will be:
+ 
     - Groups(similar to subreddits)
     - Multiple Users and Authorizations
     - Post in groups (similar to a tweet)
