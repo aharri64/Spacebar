@@ -37,7 +37,7 @@
 
 ### just logged in
 
-![4-just-logged-in](./planning-pics/4-just-logged-in.png)
+![4-just-logged-in](./planning-pics/4-Just-logged-in.png)
 
 ### My Groups Page
 
