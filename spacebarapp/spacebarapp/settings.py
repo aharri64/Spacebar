@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
+import django_heroku
 from pathlib import Path
 import os
 # import dj_database_url
@@ -136,3 +137,6 @@ STATICFILES_DIRS = [Path.joinpath(BASE_DIR, "static")]
 
 LOGIN_REDIRECT_URL = 'test'
 LOGOUT_REDIRECT_URL = 'thanks'
+
+# Configure Django App for Heroku.
+django_heroku.settings(locals())
