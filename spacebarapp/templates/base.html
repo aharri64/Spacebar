@@ -35,8 +35,11 @@
         />
 
         <link rel="stylesheet" href="{% static 'spacebarapp/css/master.css'%}" />
+        {% comment %} <link rel="stylesheet" href="{% static 'spacebarapp/css/main.css'%}" /> {% endcomment %}
     </head>
     <body>
+    {% comment %} <div class="stars"> {% endcomment %}
+    {% comment %} <div class="stars twinkling clouds"> {% endcomment %}
 
         <nav class="navbar mynav" role="navigation" id="navbar">
             <div class="container">
@@ -61,7 +64,9 @@
             {% block content %}
             {% endblock %}
         </div>
+    {% comment %} </div> {% endcomment %}
         <canvas id="canvas"></canvas>
+        {% comment %} <canvas id="main_canvas"></canvas> {% endcomment %}
     </body>
     <script type="text/javascript" src="{% static 'spacebarapp/js/master.js' %}"></script>
 </html>
