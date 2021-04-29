@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Space Bar</title>
+        <title>SpaceBar</title>
 
         <!-- Latest compiled and minified CSS -->
         <link
@@ -43,7 +43,7 @@
 
         <nav class="navbar mynav" role="navigation" id="navbar">
             <div class="container">
-                <a href="{% url 'home' %}" class="navbar-brand mynav">Space Bar</a>
+                <a href="{% url 'home' %}" class="navbar-brand mynav">SpaceBar</a>
 
                 <ul class="nav navbar-nav navbar-right">
                     {% if user.is_authenticated %}
@@ -52,6 +52,7 @@
                         <li><a href="{% url 'groups:create' %}">Create Group</a></li>
                         <li><a href="{% url 'accounts:logout' %}">Log Out</a></li>
                     {% else %}
+                        
                         <li><a href="{% url 'groups:all' %}">Groups</a></li>
                         <li><a href="{% url 'accounts:login' %}">Log In</a></li>
                         <li><a href="{% url 'accounts:signup' %}">Sign Up</a></li>
@@ -63,6 +64,18 @@
         <div class="container mycontent">
             {% block content %}
             {% endblock %}
+        </div>
+
+        <div class="navbar navbar-reverse navbar-fixed-bottom">
+            <div class="container">
+                <ul class='nav navbar-nav navbar-right'>
+                    <li><p> Copyright 2021 &copy;</p></li>
+                    <li><a class='navbar-right' href="#">About</a></li>
+                    <li><a href="">33</a></li>
+                    <li><a href="">github</a></li>
+                </ul>
+
+            </div>
         </div>
     {% comment %} </div> {% endcomment %}
         <canvas id="canvas"></canvas>
